@@ -4,3 +4,129 @@ html {
 }
 
 body {}
+
+#container{
+    background-color:#A8A8A8;
+    width:706px;
+    margin-left:20%;
+    height:700px;
+    
+}
+
+#topbar{
+    background-color:#7BA7FF;
+    text-align:right;
+    height: 20px;
+    position: absolute;
+    width: 706px;
+        color: white;
+}
+#menu{
+    background:url(../pics/kantradbat.png) no-repeat center top 0px;
+    height:300px;
+    width:100%;
+    background-color:#7BA7FF;
+}
+#menu a{
+    display:inline;
+    color:white;
+}
+#menu a #maincontent{
+    visibility: hidden;
+}
+#menu li{
+    display:inline-block;
+    text-decoration:none;
+    padding: 10px 20px;
+    background-color:rgb(199, 198, 198);
+    margin-top: 39.3%;
+    text-transform:capitalize;
+    margin-left: 0.1%;
+
+}
+.active{
+    background-color:#A8A8A8 !important;
+}
+/*#menu a .active{
+    background-color:#A8A8A8;
+}*/
+a{
+     text-decoration:none;
+}
+
+#maincontent p{
+     font-family: 'Times New Roman';
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 15px;
+    word-spacing: 10px;
+    color: rgb(107, 104, 104);
+}
+
+#maincontent h1{
+    padding-left:10Px;
+     font-family:'Times New Roman';
+    font-size:20px;
+    color:rgb(107, 104, 104) ;
+}
+
+#subcontent h1{
+   font-size:14px;
+   padding: 60px 0px 0px 19px;
+   color:rgb(107, 104, 104);
+}
+#subcontent p{
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 30px;
+    word-spacing: 10px;
+    color: rgb(107, 104, 104);
+        padding-bottom: 20px;
+
+}
+#subcontent h2{
+   font-size:14px;
+       padding: 0px 0px 0px 19px;
+       color:rgb(107, 104, 104);
+}
+
+img{
+    float:left;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+#menu > a{
+    display:none;
+}
+#bottomcontent{
+    float:left;
+    position: absolute;
+    bottom: -90px;
+    font-size:10px;
+    color:rgb(107, 104, 104);
+    font-style:italic;
+    padding-left: 10px;
+}
+
+#maincontent{
+    width:59%;
+    float:left;
+}
+
+#subcontent{
+    width:40%;
+    float:right;
+   border-left: 1px solid #9C9C9C
+}
+#subcontent li{
+    text-decoration: underline;
+    list-style-type: none;
+    
+}
+#subcontent ul a{
+    color:rgb(62, 60, 60);
+}
+#subcontent ul {
+    padding-left:20px;
+}
